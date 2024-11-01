@@ -17,11 +17,20 @@
               <td colspan="6"><h3>Cargando....</h3></td>
             </tr>
             <tr v-else v-for="pro, i in this.productos" :key="pro.id">
-              <td v-text="(i+1)"></td>
+              <td v-text="pro.id"></td>
               <td v-text="pro.name"></td>
               <td v-text="pro.description"></td>
               <td v-text="pro.price"></td>
               <td v-text="pro.stock"></td>
+              <td> 
+                <router-link :to="{path:'editP/'+pro.id}" class="btn-btn-info">
+                  <i class="fa-solid fa-eye"></i>
+                </router-link>
+                &nbsp;
+                <router-link :to="{path:'editP/'+pro.id}" class="btn-btn-danger">
+                  <i class="fa-solid fa-trash"></i>
+                </router-link>
+              </td>
             </tr>
           </tbody>
         </table>
