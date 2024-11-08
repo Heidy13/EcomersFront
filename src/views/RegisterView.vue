@@ -58,10 +58,10 @@
 
                 </form>
               </div>
-              <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+              <!-- <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
                 <img src="../image/_6a3cfe52-8e32-4196-b320-bb6e2d0376cc.jpg"
                   class="img-fluid" alt="Sample image">
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
