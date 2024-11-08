@@ -7,5 +7,8 @@ export function enviarsolicitud(metodo,parametros,url,mensaje){
             if(estado == 200){
                 console.log(mensaje);
             }
+        })
+        .catch(function(error) {
+            console.error("Error al enviar solicitud:", error.response ? error.response.data : error.message);
         });
 }
