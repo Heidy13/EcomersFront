@@ -3,12 +3,18 @@ import HomeView from '../views/HomeView.vue'
 import Product from '../views/Product.vue'
 import ProductEdit from '../views/ProductEdit.vue'
 import ProductView from '../views/ProductView.vue'
+import RegisterView from '../views/RegisterView.vue'
 
 const routes = [
   {
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/register',
+    name: 'register',
+    component: RegisterView
   },
   {
     path: '/createP',

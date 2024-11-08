@@ -6,6 +6,10 @@
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      <a class="navbar-brand" href="#">Inicio</a>
+      <a class="navbar-brand" href="#">Servicios</a>
+      <a class="navbar-brand" href="#">Habilidades</a>
+      <a class="navbar-brand" href="#">Perfil</a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item dropdown">
